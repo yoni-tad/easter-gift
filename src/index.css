@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  font-family: "Lobster Two", sans-serif;
+}
+
+#quote{
+  font-family: "Winky Sans", sans-serif;
+}
+
+@import "tailwindcss";
