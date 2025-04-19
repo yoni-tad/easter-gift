@@ -26,8 +26,7 @@ Easter Gift Bot helps you send beautiful blessing cards and fun quotes to your f
 4. Enjoy and share the blessings 🎁
 
 ## 🔥 Demo
-https://github.com/user-attachments/assets/7d52ddca-4da9-4fa7-b303-18f988f9931d
-
+https://github.com/user-attachments/assets/ced42adc-c3c4-46c5-8e22-d41c359cbf0d
 
 
 ## 🧠 Tech Stack
