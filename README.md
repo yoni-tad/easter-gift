@@ -1,12 +1,67 @@
-# React + Vite
+# 🐣 Easter Gift Bot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Celebrate Easter with a smile!**  
+Easter Gift Bot helps you send beautiful blessing cards and fun quotes to your friends — right inside Telegram!
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌸 **Easter Blessing Cards**  
+  Send joyful messages with lovely postcard designs.
 
-## Expanding the ESLint configuration
+- 🍀 **Luck Quote Mini App**  
+  Try your luck and receive a surprise quote!
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🧩 **Inline Mode**  
+  Use the bot anywhere in Telegram with:  
+  `@easter_gift_bot your-friend-name`
+
+- 📤 **Share with Friends**  
+  Quick Telegram sharing built into the web mini-app.
+
+## 🚀 How to Use
+
+1. Start the bot 👉 [@easter_gift_bot](https://t.me/easter_gift_bot)  
+2. Type `/start` to begin.  
+3. Or use inline: `@easter_gift_bot your-friend-name` in any chat.  
+4. Enjoy and share the blessings 🎁
+
+## 🧠 Tech Stack
+
+- PHP (Bot logic)
+- Telegram Bot API
+- React (Mini App)
+
+## 🗄 Folder Structure
+
+```
+└── 📁easter-gift
+    └── 📁bot
+        └── index.php
+    └── 📁public
+        └── vite.svg
+    └── 📁src
+        └── App.jsx
+        └── 📁assets
+            └── egg-crack.json
+            └── egg.json
+        └── index.css
+        └── main.jsx
+    └── .gitignore
+    └── eslint.config.js
+    └── index.html
+    └── package-lock.json
+    └── package.json
+    └── README.md
+    └── vite.config.js
+```
+
+## ❤️ Support & Contributions
+
+This project is open source!  
+If you like it, **give it a ⭐️ on GitHub**  
+Pull requests and ideas are welcome!
+
+---
+
+Made with love for Fasika 🌼  
+[@easter_gift_bot](https://t.me/easter_gift_bot)
