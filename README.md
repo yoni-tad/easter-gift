@@ -25,6 +25,11 @@ Easter Gift Bot helps you send beautiful blessing cards and fun quotes to your f
 3. Or use inline: `@easter_gift_bot your-friend-name` in any chat.  
 4. Enjoy and share the blessings 🎁
 
+## 🔥 Demo
+https://github.com/user-attachments/assets/7d52ddca-4da9-4fa7-b303-18f988f9931d
+
+
+
 ## 🧠 Tech Stack
 
 - PHP (Bot logic)
