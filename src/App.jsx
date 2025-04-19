@@ -44,7 +44,7 @@ export default function App() {
 
   return (
     <div className="h-screen w-screen flex flex-col items-center justify-center text-white bg-black gap-8 py-4 overflow-hidden max-w-md">
-      <p className="text-7xl">
+      <p className="text-7xl text-center">
         <span className="text-blue-400">Happy </span>
         <span className="text-pink-400">Easter</span>
       </p>
@@ -81,7 +81,7 @@ export default function App() {
           </div>
 
           <p>📨 Want your friends to try their luck?</p>
-          <p className="text-xl px-6 py-2 bg-blue-400 rounded-xl cursor-pointer flex items-center gap-2">
+          <a href={`https://t.me/share/url?url=${encodeURIComponent('#fasikagift\n\n' + '✨' + randomQuote + '\n\nTry your luck 👇 \n\n@easter_gift_bot')}`} className="text-xl px-6 py-2 bg-blue-400 rounded-xl cursor-pointer flex items-center gap-2">
             Share
             <svg
               className="h-6"
@@ -98,12 +98,13 @@ export default function App() {
                 d="m20 12-6.4-7v3.5C10.4 8.5 4 10.6 4 19c0-1.167 1.92-3.5 9.6-3.5V19l6.4-7z"
               />
             </svg>
-          </p>
+          </a>
+          <p className="my-6">Built with ❤️ by Yoni Tad</p>
         </div>
       ) : (
         <div className="flex flex-col items-center" id="cracked-egg">
           <Lottie animationData={eggCrack} className="h-80 cursor-pointer" />
-          <p className="text-xl" id="loading">
+          <p className="text-xl text-center" id="loading">
             ✨ Cracking your egg... 🐣{" "}
           </p>
         </div>
